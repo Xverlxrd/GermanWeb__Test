@@ -1,0 +1,332 @@
+@media screen and (max-width: 1500px) {
+    .rental__content{
+        flex-direction: column;
+    }
+
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__nav{
+        column-gap: 50px;
+    }
+    .footer__address_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .header__work{
+        font-size: 12px;
+    }
+    .header__link{
+        font-size: 12px;
+    }
+    .header__nav{
+        width: 75%;
+    }
+
+    .dropdown__nav_link{
+        font-size: 16px;
+    }
+    .dropdown__nav{
+        row-gap: 40px;
+    }
+    .dropdown__shop_title, .dropdown__foodcourt_title, .dropdown__service_title, .dropdown__events_title{
+        font-size: 20px;
+    }
+    .dropdown__events_link, .dropdown__service_link, .dropdown__foodcourt_link, .dropdown__shop_link{
+        font-size: 12px;
+    }
+    .dropdown__shop, .dropdown__foodcourt, .dropdown__service, .dropdown__events{
+        row-gap: 12px;
+    }
+
+    .about__content_img{
+        width: 50%;
+        height: 400px;
+    }
+    .about__title{
+        font-size: 40px;
+    }
+    .about__text, .about__list_item, .about__content_footer{
+        font-size: 12px;
+    }
+    .about__download_text, .about__list_title{
+        font-size: 20px;
+    }
+    .about__content_header{
+        margin-bottom: 20px;
+    }
+
+    .rental__title_text{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .footer__link{
+        font-size: 10px;
+    }
+    .footer__list{
+        row-gap: 10px;
+    }
+    .footer__nav{
+        column-gap: 30px;
+    }
+    .footer__address_text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .footer__input{
+        height: 30px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header__work{
+        font-size: 10px;
+    }
+    .header__link{
+        font-size: 10px;
+    }
+    .header__nav{
+        width: 85%;
+    }
+
+    .dropdown__nav_link{
+        font-size: 12px;
+    }
+    .dropdown__nav{
+        row-gap: 36px;
+    }
+    .dropdown__shop_title, .dropdown__foodcourt_title, .dropdown__service_title, .dropdown__events_title{
+        font-size: 16px;
+    }
+    .dropdown__events_link, .dropdown__service_link, .dropdown__foodcourt_link, .dropdown__shop_link{
+        font-size: 10px;
+    }
+    .dropdown__shop, .dropdown__foodcourt, .dropdown__service, .dropdown__events{
+        row-gap: 10 px;
+    }
+
+    .rental__title_text{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .gallery__text_list{
+        flex-direction: row;
+    }
+    .gallery__text_title{
+        font-size: 30px;
+    }
+    .gallery__text_about{
+        font-size: 14px;
+    }
+    .gallery__text_item{
+        margin-right: 50px;
+    }
+
+    .footer__link{
+        font-size: 8px;
+    }
+    .footer__list{
+        row-gap: 8px;
+    }
+    .footer__nav{
+        column-gap: 15px;
+    }
+    .footer__address_text{
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 17px;
+    }
+    .footer__input{
+        height: 30px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header__work{
+        font-size: 14px;
+    }
+    .header__link, .header__search, .header__work_text{
+        display: none;
+    }
+    .header__nav{
+        width: 55%;
+    }
+
+    .dropdown__nav_link{
+        font-size: 20px;
+        color: #151516;
+    }
+    /* .dropdown__nav{
+        row-gap: 40px;
+    } */
+    /* .dropdown__events_item, .dropdown__service_item, .dropdown__foodcourt_item, .dropdown__shop_item{
+        font-size: 12px;
+    } */
+    .header__dropdown{
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 1236px;
+        justify-content: flex-end;
+        row-gap: 30px;
+        
+    }
+    .dropdown__events_container, .dropdown__service_container, .dropdown__foodcourt_container, .dropdown__shop_sontainer{
+        height: 20px;
+    }
+    .dropdown__nav{
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .dropdown__nav_item{
+        margin: 0px;
+        width: 100px;
+        text-align: center;
+    }
+    .dropdown__shop_container{
+        order: 4;
+    }
+    .dropdown__foodcourt_container{
+        order: 3;
+    }
+    .dropdown__service_container{
+        order: 2;
+    }
+    .dropdown__events_container{
+        order: 1;   
+    }   
+    .dropdown__shop_title{
+        text-align: center;
+    }
+    .dropdown__foodcourt_title{
+        text-align: center;
+    }
+    .dropdown__nav{
+        border: 0px;
+    }
+    .dropdown__shop, .dropdown__foodcourt, .dropdown__service, .dropdown__events{
+        display: none;
+    }
+    .dropdown__shop_title, .dropdown__foodcourt_title, .dropdown__service_title, .dropdown__events_title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .dropdown__shop_content{
+        display: none;
+    }
+    .dropdown__search{
+        order: 5;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .dropdown__input{
+        width: 100%;
+    }
+
+    .about__content{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .about__content_img{
+        width: 100%;
+    }
+    .about__content_other{
+        align-items: center;
+    }
+    .about__list_title{
+        text-align: center;
+    }
+    .about__content_header{
+        margin-bottom: 50px;
+    }
+    .about__content_footer{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .rental__slider{
+        display: none;
+    }
+
+    .gallery__text_item{
+        margin-right: 20px;
+    }
+    .gallery__text_title{
+        font-size: 26px;
+    }
+    .gallery__text_about{
+        font-size: 12px;
+    }
+
+    .footer__container{
+        flex-direction: column-reverse;
+    }
+    .footer__nav{
+        display: none;
+    }
+    .footer__logo{
+        order: 5;
+    }
+    .search__content{
+        order: -4;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    .footer__search_img{
+        position: absolute;
+        right: 100px;
+    }
+    .footer__search{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__input{
+        width: 70%;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.17);
+        border-radius: 88px;
+    }
+    .footer__polit{
+        display: block;
+        order: -2;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #151516;
+        margin-top: 24px;
+    }
+    .footer__address{
+        order: -3;
+    }
+    .footer__sotial{
+        display: none;
+    }
+    .footer__address_text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #151516;
+    }
+    .date{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #151516;
+    }
+}
